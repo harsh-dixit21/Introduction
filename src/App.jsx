@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import LandingPage from './pages/LandingPage'
-import SquadPage from './pages/SquadPage'
+import LandingPage from './pages/LandingPage.jsx'
+import SquadPage from './pages/SquadPage.jsx'
 
 function App() {
   const [showSquad, setShowSquad] = useState(false)
